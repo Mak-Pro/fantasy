@@ -1,0 +1,17 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--orange-5);
+
+  &__header {
+    background-color: #ccc;
+    text-align: center;
+  }
+
+  &__body {
+    flex: 1;
+    background-color: yellow;
+    text-align: center;
+  }
+}
